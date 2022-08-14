@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: hello-kubernetes-pod
+spec:
+  containers:
+    - name: web
+      image: hoaitran1001/hello-kubernetes
